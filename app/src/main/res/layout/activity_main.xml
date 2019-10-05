@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.awageeh.tiktaktok.MainActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/player"
+        android:gravity="center"
+        android:text="Player : "
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp">
+
+        <Button
+            android:id="@+id/row1_1"
+            android:text=""
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="3dp"
+            />
+        <Button
+            android:id="@+id/row1_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="3dp"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/row1_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="3dp"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp">
+
+        <Button
+            android:id="@+id/row2_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="3dp"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/row2_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="35dp"/>
+        <Button
+            android:id="@+id/row2_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="35dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp">
+
+        <Button
+            android:id="@+id/row3_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="35dp"/>
+        <Button
+            android:id="@+id/row3_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="35dp"/>
+        <Button
+            android:id="@+id/row3_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="35dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
